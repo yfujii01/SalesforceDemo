@@ -1,5 +1,13 @@
 # Salesforce App
 
+## 環境構築方法
+
+### 権限割当
+
+sfdx force:user:permset:assign --permsetname permset_group_admin
+
+## その他
+
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 
 ## Part 1: Choosing a Development Model

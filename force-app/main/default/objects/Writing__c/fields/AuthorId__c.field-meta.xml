@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <label>著者</label>
     <referenceTo>Author__c</referenceTo>
-    <relationshipLabel>本x著者</relationshipLabel>
+    <relationshipLabel>本</relationshipLabel>
     <relationshipName>Books</relationshipName>
     <relationshipOrder>1</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
