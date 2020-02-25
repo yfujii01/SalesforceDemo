@@ -164,7 +164,15 @@
         <label>タイトル</label>
         <type>Text</type>
     </nameField>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>ISBN__c</searchFilterFields>
+        <searchFilterFields>PublicationYear__c</searchFilterFields>
+        <searchFilterFields>PublisherId__c</searchFilterFields>
+        <searchResultsAdditionalFields>ISBN__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PublicationYear__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PublisherId__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
