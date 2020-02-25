@@ -1,0 +1,24 @@
+{
+  "name": "SalesforceDemo",
+  "version": "1.0.0",
+  "description": "This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yfujii01/SalesforceDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yfujii01/SalesforceDemo/issues"
+  },
+  "homepage": "https://github.com/yfujii01/SalesforceDemo#readme",
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "prettier-plugin-apex": "1.2.0"
+  }
+}
