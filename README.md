@@ -6,6 +6,12 @@
 
 sfdx force:user:permset:assign --permsetname permset_group_admin
 
+### データロード
+
+```sh
+sfdx automig:load -m RecordType:DeveloperName,User:Name -d ./sfdx-out
+```
+
 ### データ抽出
 
 ```sh
@@ -14,12 +20,6 @@ echo 'y' | sfdx plugins:install sfdx-migration-automatic
 
 # データ抽出
 sfdx automig:dump -o Book__c,Author__c,Writing__c,Publisher__c,RecordType,User:related -d ./sfdx-out
-```
-
-### データロード
-
-```sh
-sfdx automig:load -m RecordType:DeveloperName,User:Name -d ./sfdx-out
 ```
 
 ## その他
