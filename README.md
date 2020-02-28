@@ -5,6 +5,10 @@
 ### メタデータデプロイ
 
 ```sh
+# for Sandbox or Developer
+sfdx force:source:deploy -p ./force-app
+
+# for Scratch
 sfdx force:source:push
 ```
 
@@ -17,6 +21,7 @@ sfdx force:user:permset:assign --permsetname permset_group_admin
 ### データロード
 
 ```sh
+# データ投入のためにはUser.csvの名前を一致させる必要がある
 sfdx automig:load -m RecordType:DeveloperName,User:Name -d ./sfdx-out
 ```
 
