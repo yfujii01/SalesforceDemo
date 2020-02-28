@@ -2,9 +2,17 @@
 
 ## 環境構築方法
 
+### メタデータデプロイ
+
+```sh
+sfdx force:source:push
+```
+
 ### 権限割当
 
+```sh
 sfdx force:user:permset:assign --permsetname permset_group_admin
+```
 
 ### データロード
 
