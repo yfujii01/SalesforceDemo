@@ -21,8 +21,9 @@ sfdx force:user:permset:assign --permsetname permset_group_admin
 ### データロード
 
 ```sh
-# データ投入のためにはUser.csvの名前を一致させる必要がある
-sfdx automig:load -m RecordType:DeveloperName,User:Name -d ./sfdx-out
+# データ投入のためにはUser.csvの名前を一致させる必要がある(User:xxxxの部分を組織のユーザと一致させる)
+# sfdx automig:load -m RecordType:DeveloperName,User:Name -d ./sfdx-out
+sfdx automig:load -m RecordType:DeveloperName,User:LastName -d ./sfdx-out --deletebeforeload
 ```
 
 ### データ抽出
